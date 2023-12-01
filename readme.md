@@ -6,7 +6,7 @@ How to run ott-platform in react using authencation.
 
 clone github repo in local machine.
 
-first run install all packages.
+first install all packages.
 
 run first commands :- movix-main> npm run dev
 
