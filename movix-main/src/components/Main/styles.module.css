@@ -1,0 +1,77 @@
+/* Navbar styling */
+.navbar {
+	width: 100%;
+	height: 70px;
+	background-color: #46c8fb;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 20px; /* Adjusted padding for better spacing */
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Added shadow for depth */
+  }
+  
+  .navbar h1 {
+	color: white;
+	font-size: 25px;
+	margin: 0; /* Removed margin-left and set to 0 for better alignment */
+	font-weight: bold; /* Added font weight for emphasis */
+  }
+  
+  /* Button styling */
+  .white_btn {
+	border: none;
+	outline: none;
+	padding: 12px 20px; /* Adjusted padding for better button size */
+	background-color: white;
+	border-radius: 20px;
+	font-weight: bold;
+	font-size: 14px;
+	cursor: pointer;
+	transition: all 0.3s ease; /* Added transition for smooth hover effect */
+	color: #46c8fb; /* Changed text color for contrast */
+  }
+  
+  .white_btn:hover {
+	background-color: #fff; /* Lighten background on hover */
+	color: #46c8fb; /* Maintain text color on hover */
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+	.navbar {
+	  padding: 0 10px; /* Adjusted padding for smaller screens */
+	}
+	
+	.navbar h1 {
+	  font-size: 20px; /* Decreased font size for smaller screens */
+	}
+	
+	.white_btn {
+	  padding: 10px 16px; /* Adjusted button padding for smaller screens */
+	}
+  }
+  
+
+.gradient-custom-2 {
+	/* fallback for old browsers */
+	background: #fccb90;
+	
+	/* Chrome 10-25, Safari 5.1-6 */
+	background: -webkit-linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+	
+	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background: linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+	}
+	
+	@media (min-width: 768px) {
+	.gradient-form {
+	height: 100vh !important;
+	}
+	}
+	@media (min-width: 769px) {
+	.gradient-custom-2 {
+	border-top-right-radius: .3rem;
+	border-bottom-right-radius: .3rem;
+	}
+	}
+
