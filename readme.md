@@ -1,3 +1,7 @@
+Full-Stack-OTT-Platform with Authencation (MERN)
+
+
+
 How to run ott-platform in react using authencation.
 
 clone github repo in local machine.
